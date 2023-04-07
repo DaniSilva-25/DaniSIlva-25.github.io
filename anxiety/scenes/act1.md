@@ -59,19 +59,19 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: Eles vai-te fazer ficar em posição fetal e chorar!
+b: Ele vai-te fazer enrolar numa bola e chorar!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: Eles vai-nos fazer partir o teu celular ao dar-te um ataque de pânico!
+b: Ele vai-nos fazer partir o teu celular ao dar-te um ataque de pânico!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: Eles não vai-te deixar bater na anfitriã da festa!
+b: Ele não vai-te deixar bater na anfitriã da festa!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: Eles vai-te fazer bater na simpática anfitriã anti-herói da festa!
+b: Ele vai-te fazer bater na simpática anfitriã anti-herói da festa!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
@@ -79,7 +79,7 @@ h: Bem, talvez assim não vamos pular do telhado desta v--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: ELES VAI-NOS FAZER PULAR DO TELHADO.
+b: ELE VAI-NOS FAZER PULAR DO TELHADO.
 {{/if}}
 
 `bb({body:"fear"});`
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Tudo bem que a história como um todo é a mesma, mas cada capítulo possui dois finais possíveis, além de várias ramificações no diá--
+h: Tudo bem que a história em si é a mesma, mas cada capítulo possui dois finais possíveis, além de várias ramificações no diá--
 
 `bb({body:"fear"});`
 
-b: O jogador ficará desapontado, vai fechar a aba do navegador, deletar nosso software, e então a gente vai--
+b: O jogador vai ficar desapontado, vai fechar o separador do navegador, eliminar o jogo, e então nós vamos--
 
 (#act1_replay_end)
 
@@ -116,23 +116,23 @@ h: Uma luso-o quê agora?
 
 `bb({eyes:"normal"});`
 
-b: O arco de história foi sobre como você pode *ESCOLHER* construir uma colaboração saudável com seus medos,
+b: A mensagem de história foi sobre como tu podes *ESCOLHER* construir uma relação saudável com os teus medos,
 
 `bb({eyes:"normal_right"});`
 
-b: Mas jogar o jogo denovo vai resultar na mesma estória, implicando que suas *ESCOLHAS* não importam,
+b: Mas jogar o jogo outra vez vai resultar na mesma estória, o que implica que que as tuas *ESCOLHAS* não importam,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Mostrará então a contradição entre a mensagem do jogo e suas mecânicas,
+b: Irá mostrar então a contradição entre a mensagem do jogo e as suas mecânicas,
 
 `bb({eyes:"fear"});`
 
-b: Que logo desmoronará a construção deste universo narrativo,
+b: Que logo irá desmoronar a construção deste universo narrativo,
 
 `bb({body:"fear"});`
 
-b: E então a gente vai--
+b: E então nós vamos--
 
 (#act1_replay_end)
 
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Tá, vamos voltar aos personagens.
+h: Pronto, vamos voltar aos personagens.
 
 ```
 Game.clearText();
 ```
 
-n4: (DEIXE _SUA_ ANSIEDADE BLÁ BLÁ BLÁ QUE MAIS SE ASSEMELHA AO QUE _SEU_ MEDO BLÁ BLÁ VOCÊ JÁ SABE)
+n4: (DEIXA A _TUA_ ANSIEDADE BLÁ BLÁ BLÁ QUE MAIS SE ASSEMELHA AO QUE _TEU_ MEDO BLÁ BLÁ JÁ SABES)
 
 ```
 sfx("squeak");
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Ah legal, meu lobo voltou. Fantááástico.
+h: Oh boa, o meu lobo voltou. Fantááástico.
 
 `hong({eyes:"0_neutral"})`
 
-n: SEU TRABALHO É PROTEGER SEU HUMANO DE *PERIGOS*
+n: O TEU TRABALHO É PROTEGER O TEU HUMANO DE *PERIGOS*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: DE FATO, AQUELE SANDUÍCHE ESTÁ OS COLOCANDO EM *PERIGO* AGORA MESMO
+n: DE FACTO, AQUELE SANDES ESTÁ A COLOCÁ-LO EM *PERIGO* AGORA MESMO
 
-n: RÁPIDO, OS AVISE!
+n: RÁPIDO, AVISA-O!
 
 ```
 sfx("squeak");
@@ -204,21 +204,21 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Humano! Escute, estamos em perigo! O problema é que...
+b: Humano! Ouve, estamos em perigo! O problema é que...
 
 `bb({body:"squeeze"})`
 
-n4: (DEIXE A _SUA_ ANSIEDADE SAIR PARA BRINCAR! ESCOLHA AQUILO QUE MAIS SE ASSEMELHA AO QUE _SEU_ MEDO DIZ)
+n4: (DEIXA A _SUA_ ANSIEDADE SAIR PARA BRINCAR! ESCOLHE AQUILO QUE MAIS SE ASSEMELHA AO QUE O _TEU_ MEDO DIZ)
 
 (#act1_normal_choice)
 
 # act1_normal_choice
 
-[Estamos almoçando sozinhos, denovo!](#act1a_alone) `bb({body:"squeeze_talk"})`
+[Estamos a almoçar sozinhos, denovo!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[Não estamos produzindo nada ao comer!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Não estamos a ser produtivos a comer!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[Esse pão branco aí é ruim pra gente!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Esse pão branco aí é mau para nós!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Você não sabe que solidão é associada com mortes prematuras tanto quanto o ato de fumar 15 cigarros ao dia?-
+b: Sabias que a solidão está associada com mortes prematuras tanto quanto fumar 15 cigarros por dia?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -237,13 +237,13 @@ b: (Holt-Lunstad 2010, PLoS Medicine)
 
 `hong({eyes:"0_annoyed"})`
 
-h: Hum, obrigado por citar suas fontes mas--
+h: Hum, obrigado por citares as tuas fontes mas--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Isso significa que, se nós não nos enturmarmos com alguém *agora mesmo*, a gente vai--
+b: Isso significa que, se nós não convivermos com alguém *agora mesmo*, vamos--
 
 `bb({body:"panic"})`
 
@@ -260,7 +260,7 @@ publish("hp_show");
 
 `_.fifteencigs = true`
 
-n: VOCÊ USOU *MEDO DE SER DESAMADO*
+n: USASTE O *MEDO DE SER DESAMADO*
 
 (#act1b)
 
@@ -271,11 +271,11 @@ bb({body:"normal", mouth:"small", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-b: Puxe o computador aí e trabalhe em alguma coisa agora mesmo!
+b: Tira o computador para fora e trabalha nalguma coisa agora!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Hum, eu preferiria não derrubar migalhas no meu teclad--
+h: Hum, eu preferiria não entornar migalhas no meu teclad--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
@@ -284,7 +284,7 @@ Game.OVERRIDE_TEXT_SPEED = 1.5;
 
 b: Se não estivermos contribuindo ao corpo-da-sociedade, então nós somos um parasita-da-sociedade!
 
-b: O corpo-da-sociedade irá ao doutor-da-sociedade para medicação exterminadora de parasitas-da-sociedade e então a gente vai--
+b: O corpo-da-sociedade irá ao doutor-da-sociedade para medicação exterminadora de parasitas-da-sociedade e então nós vamos--
 
 ```
 bb({body:"panic", mouth:"normal", eyes:"fear"});
@@ -304,7 +304,7 @@ publish("hp_show");
 
 `_.parasite = true`
 
-n: VOCÊ USOU *MEDO DE SER ALGUÉM RUIM*
+n: USASTE O *MEDO DE SER MÁ PESSOA*
 
 (#act1b)
 
@@ -315,14 +315,14 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich", eyes:"0_annoyed"});
 ```
 
-h: Você tem certeza que estes estudos foram comprov--
+h: Tens a certeza que estes estudos foram comprov--
 
 ```
 bb({body:"fear", mouth:"normal", eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Trigo processado irá decolar nosso açúcar no sangue, e então eles terão que amputar todos os nossos membros, e então a gente vai--
+b: Trigo processado vai tirar açúcar fo sangue, e então eles vão ter de amputar todos os nossos membros, e então nós vamos--
 
 `bb({body:"panic"})`
 
@@ -339,7 +339,7 @@ publish("hp_show");
 
 `_.whitebread = true`
 
-n: VOCÊ USOU *MEDO DE SE MACHUCAR*
+n: USASTE O *MEDO DE SE MAGOAR*
 
 (#act1b)
 
@@ -349,27 +349,27 @@ n: É SUPER EFETIVO
 
 `bb({mouth:"smile", eyes:"smile"});`
 
-b: Viu, humano? Eu sou seu leal lobo-guardião!
+b: Viste, humano? Eu sou o teu lobo-da-guarda!
 
 `bb({body:"pride_talk"});`
 
-b: Confie no seu coração! Seus sentimentos são sempre válidos!
+b: Confia no teu coração! Os teus sentimentos são sempre válidos!
 
 `bb({body:"pride"});`
 
-n: REDUZA A BARRA DE ENERGIA DE SEU HUMANO PARA ZERO
+n: REDUZ A BARRA DE ENERGIA DE TEU HUMANO PARA ZERO
 
-n: PARA PROTEGER SUAS NECESSIDADES FÍSICAS + SOCIAIS + MORAIS, VOCÊ PODERÁ USAR:
+n: PARA PROTEGER AS SUAS NECESSIDADES FÍSICAS + SOCIAIS + MORAIS, PODERÁs USAR:
 
-n: MEDO DE *SE MACHUCAR* #harm#
+n: MEDO DE *SE MAGOAR* #harm#
 
 n: MEDO DE *SER DESAMADO* #alone#
 
-n: E MEDO DE *SER UMA PESSOA RUIM* #bad#
+n: E MEDO DE *SER MÁ PESSOA* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (DICA: SELECIONE AS ESCOLHAS QUE PESSOALMENTE ATINGEM SEUS MAIORES, MAIS PROFUNDOS MEDOS!~)
+n4: (DICA: SELECIONA AS ESCOLHAS QUE PESSOALMENTE ATINGEM OS TEUS MAIORES, MAIS PROFUNDOS MEDOS!~)
 
 h: ...
 
@@ -383,16 +383,16 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: quer saber, talvez seja hora de olhar meu celular.
+h: queres saber, talvez seja hora de ir para o telemóvel.
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: PROTEJA SEU HUMANO.
+n: PROTEJE O TEU HUMANO.
 
-n: DO MUNDO. DE OUTRAS PESSOAS. DELES MESMOS.
+n: DO MUNDO. DE OUTRAS PESSOAS. DELE MESMO.
 
 n: BOA SORTE!
 
@@ -408,19 +408,19 @@ n: BOA SORTE!
 
 `music('battle', {volume:0.5})`
 
-n: ROUND 1: *BRIGUE!*
+n: ROUND 1: *COMEÇA!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"});`
 
-h: Huh. Meu feed do facebook diz que vai rolar uma festa este final de semana.
+h: Huh. O meu feed do facebook diz que vai haver uma festa este fim de semana.
 
 `bb({eyes:"uncertain"});`
 
-b: Aquela pessoa estranha não faz uma festa *todo* final de semana?
+b: Essa pessoa não faz uma festa *todos* os fins de semana?
 
 `bb({eyes:"uncertain_right"});`
 
-b: Que tipo de vazio eles estão tentando preencher? Eles devem ser uma bagunça por dentro!
+b: Que tipo de vazio ela está a tentar preencher? Elea deve ser uma confusão por dentro!
 
 `hong({eyes:"surprise"});`
 
@@ -430,11 +430,11 @@ h: E, eu recebi um convite?
 
 b: Pois então!
 
-[Diga sim, ou morreremos de solidão!](#act1c_loner)
+[Diz que sim, ou vamos morrer de solidão!](#act1c_loner)
 
-[Diga não, será cheio de drogas fatais!](#act1c_drugs)
+[Diz que não, vai estar cheio de drogas!](#act1c_drugs)
 
-[Ignore, nós só arruinamos festas.](#act1c_sad)
+[Ignore, estamos sempre a arruinar festas.](#act1c_sad)
 
 # act1c_loner
 
@@ -447,11 +447,11 @@ b: 15 cigarros ao dia, humano! Quinze!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: E então ninguém aparecerá no nosso funeral, eles arremessarão nossas cinzas sobre o oceano, seremos comidos por uma baleia,
+b: E então ninguém vai ao nosso funeral, eles vão atirar as nossas cinzas ao oceano, vamos ser comidos por uma baleia,
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: e nos tornaremos CACA DE BALEIA!
+b: e vamos virar ^MERDA^ DE BALEIA!
 {{/if}}
 
 {{if !_.fifteencigs}} `_.whalepoop = true` {{/if}}

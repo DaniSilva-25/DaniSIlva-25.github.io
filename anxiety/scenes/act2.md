@@ -1160,7 +1160,7 @@ b: Bem, talvez tu *NÃO DEVERIAS* LIVRAR DE MIM
 
 `bb({body:"cry_2"});`
 
-b: Como é que acha que *EU* me sinto, humano?!
+b: Como é que achas que *EU* me sinto, humano?!
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
@@ -1386,7 +1386,7 @@ bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 
 h: Mmm, que bebida tão deliciosa!
 
-h: Um sabor da cabeça-aos-pés de "cala a boca", com um pozinho de "nunca sinta nada denovo"!
+h: Um sabor da cabeça-aos-pés de "cala a boca", com um pozinho de "nunca sintas nada denovo"!
 
 b: Isso é mau, humano. Isso é muito, muito mau.
 

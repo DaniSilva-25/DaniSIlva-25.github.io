@@ -484,7 +484,7 @@ b: Mais algum pensamento, humano?
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Dize bem. Então, vamos nos proteger.](#act4_harm_skills)
+[Dizes bem. Então, vamos nos proteger.](#act4_harm_skills)
 
 [Vamos nos expor para *mais* perigo.](#act4_harm_exposure)
 
@@ -780,7 +780,7 @@ h: Estás bem?
 
 `bb({ eyes:"super_sad", mouth:"narrow" });`
 
-b: Nunca *me agradecestes* antes.
+b: Nunca *me agradeceste* antes.
 
 `hong({ mouth:"smile" });`
 
@@ -1149,7 +1149,7 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: Eu quero defender as tuas necessidades morais, que te dirigem a te tornares alguém melhor,
+b: Eu quero defender as tuas necessidades morais, que te dirigem a te tornares em alguém melhor,
 
 `bb({ eyes:"sad_d" })`
 
@@ -1362,7 +1362,7 @@ bb({ eyes:"annoyed" });
 hong({ eyes:"normal", body:"normal", mouth:"normal" });
 ```
 
-b: Espere.
+b: Espera.
 
 ["Aceitar", tipo *desistir*?](#act4_bad_accept_give_up)
 
@@ -1518,7 +1518,7 @@ h: Então, alguma outra coisa pesanda no teu coração?
 [Eu tenho medo que somos má pessoa](#act4_bad)
 {{/if}}
 
-[Nem, tudo suave por agora.](#act4c_prelude)
+[Não, tudo bom por agora.](#act4c_prelude)
 
 # act4_something_else_2
 
@@ -1618,7 +1618,7 @@ a: E- eu quero dizer- não, não tem problema se não posso, eu só...
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h2"`
 
-[Espere, não te vi naquela festa?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
+[Espera, não te vi naquela festa?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
 [Sim, claro! Chega aí.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
@@ -1628,7 +1628,7 @@ a: E- eu quero dizer- não, não tem problema se não posso, eu só...
 
 `publish("act4", ["hong_to_alshire",2]);`
 
-h2: Sim! Estava no sofá, na primeira festa que eu fui...
+h2: Sim! Estavas no sofá, na primeira festa que eu fui...
 
 `publish("act4", ["hong_to_alshire",10]);`
 

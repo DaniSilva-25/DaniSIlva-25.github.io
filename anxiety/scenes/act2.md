@@ -1518,7 +1518,7 @@ h: EU PUDE *VER* O OLHAR DE DESGOSTO DE TODOS. EU PUDE *OUVIR* AS COISAS HORRÍV
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: EU PUDE *OUVIR* AS COSTELAS QUEBRANDO. EU PUDE *SENTIR* O GOSTO DE SANGUE NO AR.
+h: EU PUDE *OUVIR* AS COSTELAS A PARTIR. EU PUDE *SENTIR* O GOSTO DE SANGUE NO AR.
 {{/if}}
 
 b: Desculpa, humano.
@@ -1653,7 +1653,7 @@ r: Eu e tu, jovem, vamos mostrar aquela besta quem manda!
 
 `publish("act2",["party_hong",36]);`
 
-h2: ok desculpa eu tenho que tocar daqui
+h2: ok desculpa eu tenho que ir embora
 
 `publish("act2",["party_hunter",16]);`
 

@@ -194,7 +194,7 @@ n: O TEU TRABALHO É PROTEGER O TEU HUMANO DE *PERIGOS*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: DE FACTO, AQUELE SANDES ESTÁ A COLOCÁ-LO EM *PERIGO* AGORA MESMO
+n: DE FACTO, AQUELA SANDES ESTÁ A COLOCÁ-LO EM *PERIGO* AGORA MESMO
 
 n: RÁPIDO, AVISA-O!
 
@@ -359,7 +359,7 @@ b: Confia no teu coração! Os teus sentimentos são sempre válidos!
 
 n: REDUZ A BARRA DE ENERGIA DE TEU HUMANO PARA ZERO
 
-n: PARA PROTEGER AS SUAS NECESSIDADES FÍSICAS + SOCIAIS + MORAIS, PODERÁs USAR:
+n: PARA PROTEGER AS SUAS NECESSIDADES FÍSICAS + SOCIAIS + MORAIS, PODERÁS USAR:
 
 n: MEDO DE *SE MAGOAR* #harm#
 
@@ -369,7 +369,7 @@ n: E MEDO DE *SER MÁ PESSOA* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (DICA: SELECIONA AS ESCOLHAS QUE PESSOALMENTE ATINGEM OS TEUS MAIORES, MAIS PROFUNDOS MEDOS!~)
+n4: (DICA: SELECIONA AS ESCOLHAS QUE PESSOALMENTE ATINGEM OS TEUS MAIORES, MAIS PROFUNDOS MEDOS!)
 
 h: ...
 
@@ -434,7 +434,7 @@ b: Pois então!
 
 [Diz que não, vai estar cheio de drogas!](#act1c_drugs)
 
-[Ignore, estamos sempre a arruinar festas.](#act1c_sad)
+[Ignora, estamos sempre a arruinar festas.](#act1c_sad)
 
 # act1c_loner
 
@@ -1448,7 +1448,7 @@ b: o que?
 h: Eu vou dizer SIM para aquela festa,
 
 {{if _.act1g=="go"}}
-h: NÃO porque tu quere, mas porque *EU* quero.
+h: NÃO porque tu queres, mas porque *EU* quero.
 {{/if}}
 
 {{if _.act1g=="dont"}}

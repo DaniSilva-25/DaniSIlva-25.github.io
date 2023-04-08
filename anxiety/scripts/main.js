@@ -51,7 +51,7 @@ subscribe("START_GAME", function(){
 	//Game.goto("act4");
 
 	// Credits
-	Game.goto("credits");
+	//Game.goto("credits");
 
 });
 

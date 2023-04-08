@@ -208,7 +208,7 @@ b: Humano! Ouve, estamos em perigo! O problema é que...
 
 `bb({body:"squeeze"})`
 
-n4: (DEIXA A _SUA_ ANSIEDADE SAIR PARA BRINCAR! ESCOLHE AQUILO QUE MAIS SE ASSEMELHA AO QUE O _TEU_ MEDO DIZ)
+n4: (DEIXA A _TUA_ ANSIEDADE SAIR PARA BRINCAR! ESCOLHE AQUILO QUE MAIS SE ASSEMELHA AO QUE O _TEU_ MEDO DIZ)
 
 (#act1_normal_choice)
 
@@ -1208,7 +1208,7 @@ attack("18p", "alone");
 
 `bb({eyes:"narrow", mouth:"small"})`
 
-b: Você acha que sexo alheio são como Pokémons para colecionar?
+b: Achas que sexo alheio são como Pokémons para colecionar?
 
 ```
 bb({body:"sing", eyes:"pretty", mouth:"shut"});
@@ -1578,7 +1578,7 @@ n: PARABÉNS!
 
 n: PROTEGESTE AS NECESSIDADES FÍSICAS + SOCIAIS + MORAIS DO TEU HUMANO COM SUCESSO.
 
-n: AFINAÇ, OLHA COMO ELE ESTÁ GRATO
+n: AFINAL, OLHA COMO ELE ESTÁ GRATO
 
 (...500)
 

@@ -1133,7 +1133,7 @@ h: Tanto faz. Nova notificação no Tinder.
 
 `bb({eyes:"uncertain"})`
 
-b: O que, aquele app de sexo?
+b: O que, aquela app de sexo?
 
 `hong({eyes:"annoyed"})`
 
@@ -1141,7 +1141,7 @@ h: Não é um app de sexo, é só um jeito de conhecer novas pess--
 
 `bb({eyes:"narrow"})`
 
-b: É um app de sexo.
+b: É uma app de sexo.
 
 ```
 hong({eyes:"surprise", mouth:"smile"});

@@ -898,7 +898,7 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: F^ODA^SE!
+h: F^ODA^-SE!
 
 h: C^ARALH^O FILHO DE TRINTA MIL P^UTA^S
 

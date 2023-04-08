@@ -772,7 +772,7 @@ h: Huh, fotos de ontem a noite. Então *é assim* que aquelas festas semanais s�
 
 `hong({mouth:"sad", eyes:"annoyed"});`
 
-h: Ui, parece muito cheio de gente para a minha ansiedade.
+h: Ui, parece muita gente para a minha ansiedade.
 
 h: Talvez eu deveria ter dito não para o convite?
 
@@ -1448,11 +1448,11 @@ b: o que?
 h: Eu vou dizer SIM para aquela festa,
 
 {{if _.act1g=="go"}}
-h: NÃO porque você quer, mas porque *EU* quero.
+h: NÃO porque tu quere, mas porque *EU* quero.
 {{/if}}
 
 {{if _.act1g=="dont"}}
-h: Precisamente PORQUE você não quer que eu vá.
+h: Precisamente PORQUE tu não queres que eu vá.
 {{/if}}
 
 ```
@@ -1460,14 +1460,14 @@ hong({body:"putaway"});
 sfx("rustle");
 ```
 
-h: Você não me controla.
+h: Tu não me controlas.
 
 ```
 sfx("rustle2");
 hong({body:"0_sammich", eyes:"0_annoyed", mouth:"0_neutral"});
 ```
 
-h: Agora, me dê licença enquanto eu como esse ^caralho^ de sanduíche delicioso em paz.
+h: Agora, dá-me licença enquanto eu como a p^orr^a desta sandes deliciosa em paz.
 
 `hong({body:"2_sammich_eat"});`
 
@@ -1505,9 +1505,9 @@ b: ..................
 
 `bb({mouth:"normal"});`
 
-[AHHHH A GENTE VAI MORRER](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH VAMOS MORRER](#act1h_death) `Game.OVERRIDE_CHOICE_LINE = true;`
 
-[AHHHH TODO MUNDO NOS ODEIA](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
+[AHHHH TODOS ODEIAM-NOS](#act1h_loneliness) `Game.OVERRIDE_CHOICE_LINE = true;`
 
 [AHHHH SOMOS PESSOAS HORRÍVEIS](#act1h_worthless) `Game.OVERRIDE_CHOICE_LINE = true;`
 
@@ -1518,7 +1518,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH A GENTE VAI MORRER AAAAAAHHHHHHH
+b: AHHHH VAMOS MORRER AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1536,7 +1536,7 @@ bb({body:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 3;
 ```
 
-b: AHHHH TODO MUNDO NOS ODEIA AAAAAAHHHHHHH
+b: AHHHH TODOS ODEIAM-NOS AAAAAAHHHHHHH
 
 ```
 hong({body:"3_defeated1"});
@@ -1576,35 +1576,35 @@ n: PARABÉNS!
 
 (...500)
 
-n: VOCÊ PROTEGEU AS NECESSIDADES FÍSICAS + SOCIAIS + MORAIS DO SEU HUMANO COM SUCESSO.
+n: PROTEGESTE AS NECESSIDADES FÍSICAS + SOCIAIS + MORAIS DO TEU HUMANO COM SUCESSO.
 
-n: ALÁ, OLHE COMO ELES ESTÃO GRATOS
+n: AFINAÇ, OLHA COMO ELE ESTÁ GRATO
 
 (...500)
 
-n: AGORA QUE A ENERGIA DELES ESTÁ EM ZERO, VOCÊ PODERÁ CONTROLAR SUAS AÇÕES DIRETAMENTE
+n: AGORA QUE A ENERGIA DELE ESTÁ A ZERO, PODES CONTROLAR AS SUAS AÇÕES DIRETAMENTE
 
 `bb({mouth:"smile", eyes:"normal"});`
 
-n: ESCOLHA SEU GOLPE FINAL
+n: ESCOLHE O TEU GOLPE FINAL
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *ACABE COM ELES*
+n: *ACABA COM ELE*
 
-[{LUTAR: Puna seu celular estressante!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{LUTAR: Bate no teu telemovel!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FUGIR: Assuma posição fetal e chore!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{FUGIR: Enrola numa bola e chora}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
 `bb({mouth:"normal", eyes:"narrow"})`
 
-b: Seu celular estava prestes a te causar um ataque de pânico!
+b: O teu telemovel estava prestes a causar-te um ataque de pânico!
 
 `bb({eyes:"anger"})`
 
-b: Zuckerberg e compania estão abduzindo sua saúde mental por lucros capitalistas fáceis!
+b: O Zuckerberg e compania estão a abduzir a tua saúde mental por lucros capitalistas fáceis!
 
 ```
 bb({body:"fear", eyes:"fear"});
@@ -1612,7 +1612,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Entregue punição ao celular! Destrua-o! Mate-o!
+b: Castiga o teu telemovel! Destroi-o! Destroi-o!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1621,7 +1621,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "fight";
 ```
 
-b: MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE-O MATE--
+b: MATA MATA MATA MATA MATA MATA MATA MATA MATA MATA MATA MATA MATA MATA MATA MATA MATA MATA MATA--
 
 (#act1j)
 
@@ -1637,7 +1637,7 @@ hong({body:"3_defeated2"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Faça como um tatu-bola! Se englobe em auto-defesa!
+b: Faz como uma tartaru-bola! Enrola-te em auto-defesa!
 
 ```
 Game.OVERRIDE_TEXT_SPEED = 2.5;
@@ -1646,7 +1646,7 @@ hong({body:"3_defeated3"});
 _.act1_ending = "flight";
 ```
 
-b: ENGLOBE E CHORE ENGLOBE E CHORE ENGLOBE E CHORE ENGLOBE E CHORE ENGLOBE E CHORE ENGLOBE E CHOR--
+b: ENROLA E CHORA ENROLA E CHORA ENROLA E CHORA ENROLA E CHORA ENROLA E CHORA ENROLA E CHORA ENROLA E CHOR--
 
 (#act1j)
 

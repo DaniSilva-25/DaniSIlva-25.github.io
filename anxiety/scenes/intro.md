@@ -19,15 +19,15 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act2"}}
-[_CONTINUE_: A Festa](#act2) `publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[_CONTINUAR_: A Festa](#act2) `publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act3"}}
-[_CONTINUE_: A Outra Festa](#act3) `publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[_CONTINUAR_: A Outra Festa](#act3) `publish("LOAD_GAME", ["act3"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="act4"}}
-[_CONTINUE_: O Outro Sanduíche](#act4) `publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[_CONTINUAR_: A Outra Sandes](#act4) `publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if _.PLAYED_BEFORE && window.localStorage.continueChapter=="replay"}}
@@ -48,7 +48,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `publish("HACK_chselect");`
 
-[I. O Sanduíche](#intro-start) `publish("HACK_chselect_end"); publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[I. A Sandes](#intro-start) `publish("HACK_chselect_end"); publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 [II. A Festa](#act2) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act2"]); Game.OVERRIDE_CHOICE_LINE=true;`
 
@@ -61,11 +61,11 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if window.localStorage.act4}}
-[IV. O Outro Sanduíche](#act4) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
+[IV. A Outra Sandes](#act4) `publish("HACK_chselect_end"); publish("LOAD_GAME", ["act4"]); Game.OVERRIDE_CHOICE_LINE=true;`
 {{/if}}
 
 {{if !window.localStorage.act4}}
-[III. O Outro Sanduíche]()
+[III. A Outra Sandes]()
 {{/if}}
 
 {{if window.localStorage.credits}}
@@ -92,17 +92,17 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Bem-vindo! Isto não é bem um "jogo", mas uma estória interativa. Espero que você goste de ler, troxa!
+n3: Bem-vindo! Isto não é bem um "jogo", mas uma história interativa. Espero que gostes de ler, mongo!
 
-n3: Então, antes de começarmos, como *você* gostaria de ler?
+n3: Então, antes de começarmos, como *gostarias* de ler?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Ótimo! Note: Você sempre poderá mudar as opções clicando o ícone ⚙ logo abaixo. Além disso, o jogo salvará seu progresso em cada capítulo!
+n3: Ótimo! Nota: Podes sempre mudar as opções clicando o ícone ⚙ logo abaixo. Além disso, o jogo salva o teu progresso em cada capítulo!
 
-n3: Agora, vamos começar nossa estória... 
+n3: Agora, vamos começar nossa história... 
 
 `clearText()`
 

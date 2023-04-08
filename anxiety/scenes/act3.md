@@ -794,7 +794,7 @@ hong({ body:"stop", mouth:"stop", eyes:"blank" });
 
 h: Bem, isso aqui foi uma má idéia de qualquer forma.
 
-h: Só fiz isso para mandar a baixo, e, bem, eu coloquei-te bem pra baixo.
+h: Só fiz isso para te mandar a baixo, e, bem, eu mandei-te bem pra baixo.
 
 h: Vamos dizer que é um empate, tá bem?
 

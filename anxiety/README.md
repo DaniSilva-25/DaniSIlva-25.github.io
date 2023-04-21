@@ -4,27 +4,16 @@
 ---
 
 
-<p align="center">Isto é uma tradução PT-BR livre. <br> 
+<p align="center">Isto é uma tradução PT-PT livre. <br> 
   <a href="https://ncase.me/anxiety/" target="_blank">Versão original em inglês</a>
 <p>
 
 
 
 <p align="center">Tradutor/Organizador:<br>
-  <a href="https://github.com/lucasgcb" target="_blank">lucasgcb</a>
+  <a href="https://github.com/DaniSilva-25" target="_blank">DaniSilva-25</a>
 </p>
 
-
-<p align="center">Tradutor dos Recursos de Saúde:<br>
-  <a href="https://github.com/lukanvanderlinde" target="_blank">lukanvanderlinde<br></a>
-</p>
-
-<p align="center">
-Revisores:<br>
-  <a href="https://github.com/CebolaBros64" target="_blank">CebolaBros64</a> <br>
-  <a href="https://github.com/ekevoo" target="_blank">Ekevoo</a> <br>
-  <a href="https://github.com/gafanhotoaprendiz" target="_blank">gafanhotoaprendiz</a> <br>
-</p>
 
 ---
 

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacte-nos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="icon" href="img/favicon.png" type="icon">
+        <style>
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+        .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+        .fa-anchor,.fa-coffee {font-size:200px}
+        </style>
+    </head>
+    <body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Página Inicial</a>
+            <a href="2023.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Carros 2023</a>
+            <a href="campeoes.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Campeões</a>
+            <a href="equipas.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Equipas</a>
+            <a href="pilotos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Pilotos</a>
+            <a href="ultimo.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Último Evento</a>
+            <a href="form.html" class="w3-bar-item w3-button w3-padding-large w3-white">Contacte-nos</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a href="2023.html" class="w3-bar-item w3-button w3-padding-large">Carros 2023</a>
+            <a href="campeoes.html" class="w3-bar-item w3-button w3-padding-large">Campeões</a>
+            <a href="equipas" class="w3-bar-item w3-button w3-padding-large">Equipas</a>
+            <a href="pilotos.html" class="w3-bar-item w3-button w3-padding-large">Pilotos</a>
+            <a href="ultimo.html" class="w3-bar-item w3-button w3-padding-large">Último Evento</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-center" style="padding:128px 16px; background-image: url(img/background.gif); color: white">
+        <img src="img/f1.png">
+        <h1 class="w3-margin w3-jumbo">Fórmula 1</h1>
+        <p class="w3-xlarge">Contacte-nos</p>
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Nome</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nome" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required placeholder="nome@exemplo.com">
+              <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" required rows="3"></textarea>
+              </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect2" required>De 1 a 5, o que achou do site?</label>
+                <select class="form-control" id="exampleFormControlSelect2">
+                    <option>5</option>
+                    <option>4</option>
+                    <option>3</option>
+                    <option>2</option>
+                    <option>1</option>
+                </select>
+              </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+    </div>
+    </div>
+    <script src="js/javascript.js"></script>
+    <footer class="footer py-4">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-4 text-lg-start">&copy;Daniel Silva</div>
+              <div class="col-lg-4 my-3 my-lg-0">
+              </div>
+              <div class="col-lg-4 text-lg-end">
+                  Março de 2023
+              </div>
+          </div>
+      </div>
+  </footer>
+    </body>
+</html>
